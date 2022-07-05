@@ -1,3 +1,226 @@
-h1{
-    color: red;
+
+/* Top Section */
+.top-section
+{
+    display: flex;
+    
 }
+
+
+.order-food-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* ############################################## */
+/* Middle Section */
+.middle-section
+{
+    display: flex;
+    background-image: url(/images/shapes/Background.png);
+
+    background-repeat: no-repeat;
+    background-size:contain;
+    align-items: center;
+    
+}
+
+
+.middle-left-div
+{
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+
+.middle-right-div
+{
+    width: 50%;
+    padding: 60px;
+    text-align: left;
+    
+}
+
+.middle-right-div p
+{
+    text-align:justify;
+}
+
+.middle-left-div img
+{
+    height: 40vw;
+
+
+}
+
+
+
+.contact-me-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+/* ############################################## */
+/* Recipes Section */
+
+
+.my-recipes-section
+{   
+    text-align: center;
+    
+}
+
+
+.section-paragraph
+{
+
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    
+}
+
+
+.my-recipes-parents
+{
+    display: flex;
+    margin: 60px;
+}
+
+
+.my-recipes-left-div
+{
+    width: 50%;
+    box-shadow: 10px 10px 20px rgb(195, 199, 202);
+    border-radius: 20px;
+    margin-right:10px;
+    
+    
+}
+.my-recipes-right-div
+{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(195, 199, 202);
+    margin-left:10px;
+    
+}
+
+.my-recipes-left-div img
+{
+    width: 92%;
+    padding: 10px 10px;
+    border-radius: 30px;
+    
+
+}
+
+.my-recipes-right-div img
+{
+    width: 92%;
+    border-radius: 30px;
+    padding: 10px 10px;
+    
+}
+
+.my-recipes-left-div p
+{
+    padding: 0px 20px;
+    text-align:justify;
+}
+
+
+.my-recipes-right-div p
+{
+    padding: 0px 20px;
+    text-align:justify;
+}
+
+
+.my-recipes-left-div h1
+{
+    text-align: justify;
+    padding: 0px 20px;
+    
+}
+.my-recipes-right-div h1
+{
+    text-align: justify;
+    padding: 0px 20px;
+    
+}
+
+
+
+
+
+
+
+/* ############################################## */
+/* Social Section */
+.social-section
+{
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px  30px rgb(195, 199, 202);
+    margin: 60px;
+    
+    
+}
+
+
+.social-parent-div
+{
+    display: flex;
+    width: 50%;
+    padding: 0px 337px;
+}
+
+.social-left-div
+{
+    padding: 10px 100px;
+}
+
+.social-middle-div
+{
+    padding: 10px 100px;
+}
+.social-right-div
+{
+    padding: 10px 100px;
+}
+
+
+/* FOOTER SECTION */
+/* ############################################## */
+
+footer
+{
+   text-align: center;
+   background-color: black; 
+
+}
+
+footer h1
+{
+    color: orange;
+
+}
+
+footer p
+{
+    color: white;
+}
+
+
