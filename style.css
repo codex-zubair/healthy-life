@@ -60,7 +60,7 @@ body {
 .middle-section
 {
     display: flex;
-    background-image: url(/images/shapes/b1.jpg);
+    /* background-image: url(/images/shapes/b1.jpg); */
 
     background-repeat: no-repeat;
     background-size:contain;
